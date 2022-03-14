@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rtCamp/visual-automation-backstop.git"
+    "url": "git+https://github.com/Rink9/csv-importer-visual-automation.git"
   },
   "author": "Lutfun Rinky",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rtCamp/visual-automation-backstop/issues"
+    "url": "https://github.com/Rink9/csv-importer-visual-automation.git/issues"
   },
-  "homepage": "https://github.com/rtCamp/visual-automation-backstop#readme",
+  "homepage": "https://github.com/Rink9/csv-importer-visual-automation.git#readme",
   "dependencies": {
     "backstopjs": "^6.0.4",
     "csv-parser": "^3.0.0",
