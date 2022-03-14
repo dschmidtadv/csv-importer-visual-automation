@@ -1,0 +1,25 @@
+{
+  "name": "visual-automation-backstop",
+  "version": "1.0.0",
+  "description": "BackstopJS automation with CSV import",
+  "main": "index.js",
+  "scripts": {
+    "init": "backstop init",
+    "reference": "backstop reference",
+    "test": "backstop test",
+    "approve": "backstop approve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtCamp/visual-automation-backstop.git"
+  },
+  "author": "Lutfun Rinky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rtCamp/visual-automation-backstop/issues"
+  },
+  "homepage": "https://github.com/rtCamp/visual-automation-backstop#readme",
+  "dependencies": {
+    "backstopjs": "^6.0.4"
+  }
+}
