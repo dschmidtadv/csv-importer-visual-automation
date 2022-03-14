@@ -4,9 +4,10 @@
   "description": "BackstopJS automation with CSV import",
   "main": "index.js",
   "scripts": {
+    "parse:csv": "node ./bin/csv-parser.js",
     "init": "backstop init",
-    "reference": "backstop reference",
-    "test": "backstop test",
+    "reference": "backstop reference --config=./tests/backstop.config.js",
+    "test": "backstop test --config=./tests/backstop.config.js",
     "approve": "backstop approve"
   },
   "repository": {
@@ -20,6 +21,11 @@
   },
   "homepage": "https://github.com/rtCamp/visual-automation-backstop#readme",
   "dependencies": {
-    "backstopjs": "^6.0.4"
+    "backstopjs": "^6.0.4",
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security"
+  },
+  "exclaim": {
+    "input": "./data/rtmedia-test-url2.csv"
   }
 }
