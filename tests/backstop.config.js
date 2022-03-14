@@ -1,6 +1,6 @@
 // Get default config from backstopJS
 const defaultConfig = require("../backstop.json");
-
+// Get user defined scenario json
 const scenarioJSON = require("../data/scenarios.json");
 
 let testScenarios = [];
@@ -22,7 +22,7 @@ scenarioJSON.map((s) => {
     misMatchThreshold: 0.1,
     requireSameDimensions: true,
   };
-  testScenarios.push({ ...obj, ...s });
+  testScenarios.push({ ...obj, ...s }); // merging url,obj
 });
 
 module.exports = {
