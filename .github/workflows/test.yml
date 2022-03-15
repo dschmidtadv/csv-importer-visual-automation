@@ -1,0 +1,53 @@
+name: CI for visual automation
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  e2e:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Setup node
+      - uses: actions/setup-node@v2.5.1
+        with:
+          node-version: '17'
+      
+      # Check folder structure
+      - name: Check the current folder structure
+        run: |
+          pwd
+          ls
+      
+      # Check node version
+      - name: Check the node version
+        run: node -v
+
+      # Setup environment
+      - name: Setup e2e environment
+        run: npm install
+          
+      # Parse urls from csv file
+      - name: Running visual test automation
+        run: npm run parse:csv
+
+      # Create reference screenshots
+      - name: Create reference screenshots
+        run: npm run reference
+        
+      # Compare test screenshots with reference screenshots
+      - name: Create reference screenshots
+        run: npm run test

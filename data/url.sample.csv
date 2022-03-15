@@ -1,2 +1,2 @@
-label,referenceUrl,url
-label,https://testurl.com/,https://referenceurl.com/
+label,url,referenceUrl
+Page,https://testurl.com/,https://referenceurl.com/
