@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  e2e:
+  visual-automation:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -47,7 +47,7 @@ jobs:
       # Create reference screenshots
       - name: Create reference screenshots
         run: npm run reference
-        
+
       # Compare test screenshots with reference screenshots
       - name: Create reference screenshots
         run: npm run test
