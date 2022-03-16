@@ -2,8 +2,7 @@
 
 If you have **thousands** of pages on your site and need to perform visual automation how can we do it?
 
-This CSV-importer will help you to **fetch** all the base urls and reference urls from the `url.sample.csv` file and will create a `scenario.json` file.  To do this we are using here [csv-parser](https://www.npmjs.com/package/csv-parser) npm package
-
+This CSV-importer will help you to **fetch** all the base urls and reference urls from the `url.sample.csv` file and will create a `scenario.json` file.
 ## Workflow Diagram
 
 [![Test](https://i.postimg.cc/h4ZnHQHs/Test.png)](https://postimg.cc/5jzDzy9Q)
