@@ -26,6 +26,6 @@
     "fs": "^0.0.1-security"
   },
   "exclaim": {
-    "input": "./data/rtmediaUrls.csv"
+    "input": "./data/rtmedia-urls.csv"
   }
 }
