@@ -37,7 +37,7 @@ jobs:
         run: node -v
 
       # Setup environment
-      - name: Setup e2e environment
+      - name: Setup visual environment
         run: npm install
           
       # Parse urls from csv file
