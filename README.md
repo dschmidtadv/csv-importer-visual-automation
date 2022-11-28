@@ -10,7 +10,7 @@ This CSV-importer will help you to **fetch** all the base urls and reference url
 ## Step 1 
 ## npm install
 
- - clone repository `https://github.com/Rink9/csv-importer-visual-automation.git`
+ - clone repository `https://github.com/dschmidtadv/csv-importer-visual-automation`
  - `cd csv-importer-visual-automation`
  - `npm install`
     
@@ -18,7 +18,7 @@ This CSV-importer will help you to **fetch** all the base urls and reference url
 ##  Provide CSV file data
  - Open this [csv file](https://drive.google.com/file/d/1Jw4EjXcY4yWTghEePDJ1cnT0d1rwGrbQ/view?usp=sharing) and download it.
  - Put respective label name, url and reference url then save
- - Replace saved csv file with `data/url.sample.csv` file
+ - Replace saved csv file with `data/urls.csv` file
 
 ## Step 3
 ## Run
