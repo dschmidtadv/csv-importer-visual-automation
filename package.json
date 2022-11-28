@@ -12,20 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rink9/csv-importer-visual-automation.git"
+    "url": "git+https://github.com/dschmidtadv/csv-importer-visual-automation.git"
   },
   "author": "Lutfun Rinky",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rink9/csv-importer-visual-automation.git/issues"
+    "url": "https://github.com/dschmidtadv/csv-importer-visual-automation.git/issues"
   },
-  "homepage": "https://github.com/Rink9/csv-importer-visual-automation.git#readme",
+  "homepage": "https://github.com/dschmidtadv/csv-importer-visual-automation.git#readme",
   "dependencies": {
     "backstopjs": "^6.0.4",
     "csv-parser": "^3.0.0",
     "fs": "^0.0.1-security"
   },
   "exclaim": {
-    "input": "./data/urls.csv"
+    "input": "../backstop-data/urls.csv"
   }
 }
